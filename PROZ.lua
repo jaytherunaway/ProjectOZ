@@ -12,16 +12,16 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("                     **************************************                     ")
-print("                     * Please Select One Of The Fallowing *      0.0.6          ")
+print("                     * Please Select One Of The Fallowing *      0.0.7          ")
 print("                     **************************************                     ")
 print("********************************************************************************")
 print("*  1.RC Controller                         11.                                 *")
 print("*  2.Robot RC Installer                    12.                                 *")
 print("*  3.Robot Farmer Installer                13.                                 *")
 print("*  4.Robot Tree Farmer Installer           14.                                 *")
-print("*  5.Robot AutoMiner Installer             15.                                 *")
-print("*  6.Robot live logs                       16.                                 *")
-print("*  7.Drone Controller                      17.Command Prompt                   *")
+print("*  5.Robot AutoMiner Installer             15.Command Prompt                   *")
+print("*  6.Robot live logs                       16.Reboot PC                        *")
+print("*  7.Drone Controller                      17.Shutdown PC                        *")
 print("*  8.                                      18.Update PROJECT OZ                *")
 print("*  9.                                      19.Delete PROJECT OZ                *")
 print("* 10.                                      20.Close PROJECT OZ                 *")
@@ -312,11 +312,11 @@ elseif slot == "15" then
 
 -- slot 16 --
 elseif slot == "16" then
-
+os.execute("reboot")
 
 -- slot 17 --
 elseif slot == "17" then
-
+os.execute("shutdown")
 
 -- slot 18 --
 elseif slot == "18" then
