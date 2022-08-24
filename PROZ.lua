@@ -12,33 +12,29 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("  *****************  **************************************    ***********      ")
-print("  * -2022/08/24-  *  * Please Select One Of The Fallowing *    * V:0.1.8 *      ")
+print("  * -2022/08/24-  *  * Please Select One Of The Fallowing *    * V:0.1.9 *      ")
 print("  *****************  **************************************    ***********      ")
 print("********************************************************************************")
-print("*  1.RC Controller                         11.                                 *")
+print("*  1.Robot RC Controller                   11.                                 *")
 print("*  2.Robot RC Installer                    12.                                 *")
 print("*  3.Robot Farmer Installer                13.                                 *")
 print("*  4.Robot Tree Farmer Installer           14.Patch Notes Last Update          *")
 print("*  5.Robot AutoMiner Installer             15.Command Prompt                   *")
 print("*  6.Robot live logs                       16.Reboot PC                        *")
-print("*  7.Drone Controller                      17.Shutdown PC                      *")
+print("*  7.Drone RC Controller                   17.Shutdown PC                      *")
 print("*  8.                                      18.Update PROJECT OZ                *")
-print("*  9.                                      19.Delete PROJECT OZ                *")
-print("* 10.                                      20.Close PROJECT OZ                 *")
+print("*  9.Mob Spawner controller Opencomputers  19.Delete PROJECT OZ                *")
+print("* 10.Mob Spawner controller Ender IO       20.Close PROJECT OZ                 *")
 print("********************************************************************************")
 local slot = io.read()
 
 -- slot 1 --
 if slot == "1" then
---SETTINGS--
 local channel = 123 --broadcast channel change in both files default 123--
---DO NOT CHANGE UNDER THIS LINE--
---VARABLES--
 local component = require("component")
 local event = require("event")
 local m = component.modem -- get primary modem component
 local loop = 1
---CODE--
 os.execute("clear")
 while(loop <= 2) do
 print("--------------------------------------------------------------------------------")
