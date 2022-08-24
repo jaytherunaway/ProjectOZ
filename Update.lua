@@ -1,4 +1,5 @@
-print("0.0.3")
+print("updater")
+print("Version 0.0.4")
 os.sleep(2)
 os.execute("del PROZ.lua")
 os.sleep(2)
