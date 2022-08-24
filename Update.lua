@@ -1,3 +1,4 @@
+print("0.0.1")
 os.sleep(2)
 os.execute("del PROZ.lua")
 os.sleep(2)
