@@ -23,7 +23,7 @@ print("*  5.Robot AutoMiner Installer             15.                           
 print("*  6.Robot live logs                       16.                                 *")
 print("*  7.Drone Controller                      17.                                 *")
 print("*  8.                                      18.Command Prompt                   *")
-print("*  9.                                      19.Get Updater                      *")
+print("*  9.                                      19.Delete ProjectOZ                     *")
 print("* 10.                                      20.Close PROJECT OZ                 *")
 print("********************************************************************************")
 local slot = io.read()
@@ -324,7 +324,9 @@ elseif slot == "18" then
 
 -- slot 19 --
 elseif slot == "19" then
-os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
+os.execute("del PROZ.lua")
+goto close
+--os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
 
 
 -- slot 20 --
