@@ -317,7 +317,8 @@ os.execute("reboot")
   
 -- slot 17 --
 elseif slot == "17" then
-os.execute("wget -f ")
+os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/2")
+goto home
 
 -- slot 18 --
 elseif slot == "18" then
