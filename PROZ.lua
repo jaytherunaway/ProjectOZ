@@ -321,8 +321,9 @@ elseif slot == "17" then
 -- slot 18 --
 elseif slot == "18" then
 os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
+os.execute("del PROZ.lua")
 os.execute("Update.lua")
-
+goto close
 
 -- slot 19 --
 elseif slot == "19" then
