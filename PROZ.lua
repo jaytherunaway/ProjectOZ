@@ -12,7 +12,7 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("  *****************  **************************************    ***********      ")
-print("  * -2022/08/24-  *  * Please Select One Of The Fallowing *    * V:0.2.1 *      ")
+print("  * -2022/08/24-  *  * Please Select One Of The Fallowing *    * V:0.2.2 *      ")
 print("  *****************  **************************************    ***********      ")
 print("********************************************************************************")
 print("*  1.Robot RC Controller                   11.                                 *")
@@ -98,7 +98,7 @@ print("At open Open.OS #home")
 print("")
 print("Press Enter To Shutdown")
 io.read()
-os.execute("del PROZ.lua Update.lua")
+os.execute("del PROZ.lua Update.lua UpdateLogs.PROZ")
 os.sleep(1.5)
 os.execute("shutdown")
 else
@@ -135,7 +135,7 @@ print("At open Open.OS #home")
 print("")
 print("Press Enter To Shutdown")
 io.read()
-os.execute("del PROZ.lua 2 Update.lua")
+os.execute("del PROZ.lua 2 Update.lua UpdateLogs.PROZ")
 os.sleep(1.5)
 os.execute("shutdown")
 else
@@ -172,7 +172,7 @@ print("At open Open.OS #home")
 print("")
 print("Press Enter To Shutdown")
 io.read()
-os.execute("del PROZ.lua 2 Update.lua")
+os.execute("del PROZ.lua 2 Update.lua UpdateLogs.PROZ")
 os.sleep(1.5)
 os.execute("shutdown")
 else
@@ -208,7 +208,7 @@ print("At open Open.OS #home")
 print("")
 print("Press Enter To Shutdown")
 io.read()
-os.execute("del PROZ.lua 2 Update.lua")
+os.execute("del PROZ.lua 2 Update.lua UpdateLogs.PROZ")
 os.sleep(1.5)
 os.execute("shutdown")
 else
@@ -301,7 +301,7 @@ print("At open Open.OS #home")
 print("")
 print("Press Enter To Shutdown")
 io.read()
-os.execute("del PROZ.lua 2 Update.lua")
+os.execute("del PROZ.lua 2 Update.lua UpdateLogs.PROZ")
 os.sleep(1.5)
 os.execute("shutdown")
 else
@@ -362,7 +362,7 @@ goto close
   
 -- slot 19 --
 elseif slot == "19" then
-os.execute("del PROZ.lua")
+os.execute("del PROZ.lua 2 Update.lua UpdateLogs.PROZ")
 goto close
 
 
