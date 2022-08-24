@@ -1,3 +1,4 @@
+os.execute("wget ")
 ::home::
 local I = 1
 while(I <= 2) do 
