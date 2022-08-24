@@ -320,6 +320,7 @@ os.execute("shutdown")
 
 -- slot 18 --
 elseif slot == "18" then
+os.execute("wget -f ")
 os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
 os.execute("Update.lua")
 goto close
