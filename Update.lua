@@ -1,5 +1,5 @@
-print("updater")
-print("Version 0.0.5")
+print("PROJECT OZ Updater")
+print("Version 0.0.6")
 os.sleep(2)
 os.execute("del PROZ.lua")
 os.sleep(2)
