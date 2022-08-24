@@ -22,7 +22,7 @@ print("*  4.Robot Tree Farmer Installer           14.Patch Notes Last Update    
 print("*  5.Robot AutoMiner Installer             15.Command Prompt                   *")
 print("*  6.Robot live logs                       16.Reboot PC                        *")
 print("*  7.Drone Controller                      17.Shutdown PC                      *")
-print("*  8.                                      18.Get PROJECT OZ Updater           *")
+print("*  8.                                      18.Update PROJECT OZ                *")
 print("*  9.                                      19.Delete PROJECT OZ                *")
 print("* 10.                                      20.Close PROJECT OZ                 *")
 print("********************************************************************************")
@@ -322,6 +322,7 @@ os.execute("shutdown")
 -- slot 18 --
 elseif slot == "18" then
 os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
+os.execute("Update.lua")
 goto close
 
 -- slot 19 --
