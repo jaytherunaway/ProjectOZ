@@ -12,16 +12,16 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("  *****************  **************************************    ***********      ")
-print("  * -2022/08/24-  *  * Please Select One Of The Fallowing *    * V:0.1.9 *      ")
+print("  * -2022/08/24-  *  * Please Select One Of The Fallowing *    * V:0.2.0 *      ")
 print("  *****************  **************************************    ***********      ")
 print("********************************************************************************")
 print("*  1.Robot RC Controller                   11.                                 *")
 print("*  2.Robot RC Installer                    12.                                 *")
-print("*  3.Robot Farmer Installer                13.                                 *")
+print("*  3.Robot Farmer Installer                13.Command Prompt                   *")
 print("*  4.Robot Tree Farmer Installer           14.Patch Notes Last Update          *")
-print("*  5.Robot AutoMiner Installer             15.Command Prompt                   *")
+print("*  5.Robot AutoMiner Installer             15.Shutdown PC                      *")
 print("*  6.Robot live logs                       16.Reboot PC                        *")
-print("*  7.Drone RC Controller                   17.Shutdown PC                      *")
+print("*  7.Drone RC Controller                   17.Make Shortcut for PROZ.lua       *")
 print("*  8.                                      18.Update PROJECT OZ                *")
 print("*  9.Mob Spawner controller Opencomputers  19.Delete PROJECT OZ                *")
 print("* 10.Mob Spawner controller Ender IO       20.Close PROJECT OZ                 *")
@@ -307,15 +307,17 @@ goto home
 
 -- slot 15 --
 elseif slot == "15" then
+os.execute("shutdown")
 
-
+  
 -- slot 16 --
 elseif slot == "16" then
 os.execute("reboot")
 
+  
 -- slot 17 --
 elseif slot == "17" then
-os.execute("shutdown")
+os.execute("wget -f ")
 
 -- slot 18 --
 elseif slot == "18" then
@@ -324,6 +326,7 @@ os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.l
 os.execute("Update.lua")
 goto close
 
+  
 -- slot 19 --
 elseif slot == "19" then
 os.execute("del PROZ.lua")
