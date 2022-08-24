@@ -343,4 +343,3 @@ end
 end
 ::close::
 os.execute("clear")
-os.execute("Update.lua")
