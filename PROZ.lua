@@ -12,7 +12,7 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("  *****************  **************************************    ***********      ")
-print("  *  2022.08.24   *  * Please Select One Of The Fallowing *    * V:0.1.6 *      ")
+print("  *  2022.08.24   *  * Please Select One Of The Fallowing *    * V:0.1.7 *      ")
 print("  *****************  **************************************    ***********      ")
 print("********************************************************************************")
 print("*  1.RC Controller                         11.                                 *")
@@ -303,7 +303,10 @@ elseif slot == "13" then
 
 -- slot 14 --
 elseif slot == "14" then
-
+  os.execute("clear")
+os.execute("UpdateLogs.PROZ")
+io.read()
+goto home
 
 
 -- slot 15 --
@@ -320,7 +323,7 @@ os.execute("shutdown")
 
 -- slot 18 --
 elseif slot == "18" then
-os.execute("wget -f ")
+os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/UpdateLogs.PROZ")
 os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
 os.execute("Update.lua")
 goto close
