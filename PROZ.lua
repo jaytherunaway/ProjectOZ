@@ -12,13 +12,13 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("                     **************************************    ***********      ")
-print("                     * Please Select One Of The Fallowing *    * V:0.1.1 *      ")
+print("                     * Please Select One Of The Fallowing *    * V:0.1.2 *      ")
 print("                     **************************************    ***********      ")
 print("********************************************************************************")
 print("*  1.RC Controller                         11.                                 *")
 print("*  2.Robot RC Installer                    12.                                 *")
 print("*  3.Robot Farmer Installer                13.                                 *")
-print("*  4.Robot Tree Farmer Installer           14.                                 *")
+print("*  4.Robot Tree Farmer Installer           14.Patch Notes Last Update          *")
 print("*  5.Robot AutoMiner Installer             15.Command Prompt                   *")
 print("*  6.Robot live logs                       16.Reboot PC                        *")
 print("*  7.Drone Controller                      17.Shutdown PC                      *")
@@ -306,6 +306,7 @@ elseif slot == "13" then
 elseif slot == "14" then
 
 
+
 -- slot 15 --
 elseif slot == "15" then
 
@@ -321,8 +322,6 @@ os.execute("shutdown")
 -- slot 18 --
 elseif slot == "18" then
 os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
-os.execute("del PROZ.lua")
-os.execute("Update.lua")
 goto close
 
 -- slot 19 --
