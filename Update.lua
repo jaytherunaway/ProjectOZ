@@ -1,3 +1,5 @@
+os.sleep(2)
 os.execute("del PROZ.lua")
-os.sleep(1)
+os.sleep(2)
 os.execute("wget https://github.com/jaytherunaway/ProjectOZ/raw/main/PROZ.lua")
+os.execute("clear")
