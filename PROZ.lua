@@ -303,7 +303,7 @@ elseif slot == "13" then
 
 -- slot 14 --
 elseif slot == "14" then
-  os.execute("clear")
+os.execute("clear")
 os.execute("UpdateLogs.PROZ")
 io.read()
 goto home
