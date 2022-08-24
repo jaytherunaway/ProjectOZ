@@ -324,7 +324,7 @@ elseif slot == "18" then
 
 -- slot 19 --
 elseif slot == "19" then
-os.execute("wget -r  https://github.com/jaytherunaway/ProjectOZ/raw/main/PROZ.lua")
+os.execute("wget -f  https://github.com/jaytherunaway/ProjectOZ/raw/main/PROZ.lua")
 
 -- slot 20 --
 elseif slot == "20" then
