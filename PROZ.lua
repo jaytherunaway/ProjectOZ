@@ -1,4 +1,4 @@
-os.execute("wget ")
+os.execute("wget https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
 ::home::
 local I = 1
 while(I <= 2) do 
@@ -325,7 +325,7 @@ elseif slot == "18" then
 
 -- slot 19 --
 elseif slot == "19" then
-os.execute("Update")
+os.execute("Update.lua")
 os.sleep(5)
 
  
