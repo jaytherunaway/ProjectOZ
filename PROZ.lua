@@ -12,7 +12,7 @@ print("*         *     *  *   ****   ***  *****  ****     *       ****  *****   
 print("*                                                                              *")
 print("********************************************************************************")
 print("                     **************************************                     ")
-print("                     * Please Select One Of The Fallowing *      0.0.4          ")
+print("                     * Please Select One Of The Fallowing *      0.0.5          ")
 print("                     **************************************                     ")
 print("********************************************************************************")
 print("*  1.RC Controller                         11.                                 *")
@@ -21,9 +21,9 @@ print("*  3.Robot Farmer Installer                13.                           
 print("*  4.Robot Tree Farmer Installer           14.                                 *")
 print("*  5.Robot AutoMiner Installer             15.                                 *")
 print("*  6.Robot live logs                       16.                                 *")
-print("*  7.Drone Controller                      17.                                 *")
-print("*  8.                                      18.Command Prompt                   *")
-print("*  9.                                      19.Delete ProjectOZ                     *")
+print("*  7.Drone Controller                      17.Command Prompt                                 *")
+print("*  8.                                      18.Update PROJECT OZ                   *")
+print("*  9.                                      19.Delete PROJECT OZ                 *")
 print("* 10.                                      20.Close PROJECT OZ                 *")
 print("********************************************************************************")
 local slot = io.read()
@@ -320,13 +320,15 @@ elseif slot == "17" then
 
 -- slot 18 --
 elseif slot == "18" then
+os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
+os.execute("Update.lua")
 
 
 -- slot 19 --
 elseif slot == "19" then
 os.execute("del PROZ.lua")
 goto close
---os.execute("wget -f https://github.com/jaytherunaway/ProjectOZ/raw/main/Update.lua")
+
 
 
 -- slot 20 --
